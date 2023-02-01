@@ -1,0 +1,460 @@
+{
+  "train": {
+    "classes": [
+      {
+        "available": "N",
+        "code": "3A",
+        "name": "THIRD AC"
+      },
+      {
+        "available": "Y",
+        "code": "2S",
+        "name": "SECOND SEATING"
+      },
+      {
+        "available": "N",
+        "code": "1A",
+        "name": "FIRST AC"
+      },
+      {
+        "available": "N",
+        "code": "SL",
+        "name": "SLEEPER CLASS"
+      },
+      {
+        "available": "N",
+        "code": "3E",
+        "name": "3rd AC ECONOMY"
+      },
+      {
+        "available": "Y",
+        "code": "CC",
+        "name": "AC CHAIR CAR"
+      },
+      {
+        "available": "N",
+        "code": "2A",
+        "name": "SECOND AC"
+      },
+      {
+        "available": "N",
+        "code": "FC",
+        "name": "FIRST CLASS"
+      }
+    ],
+    "days": [
+      {
+        "code": "MON",
+        "runs": "Y"
+      },
+      {
+        "code": "TUE",
+        "runs": "Y"
+      },
+      {
+        "code": "WED",
+        "runs": "Y"
+      },
+      {
+        "code": "THU",
+        "runs": "Y"
+      },
+      {
+        "code": "FRI",
+        "runs": "Y"
+      },
+      {
+        "code": "SAT",
+        "runs": "Y"
+      },
+      {
+        "code": "SUN",
+        "runs": "Y"
+      }
+    ],
+    "number": "19033",
+    "name": "GUJARAT QUEEN"
+  },
+  "route": [
+    {
+      "day": 1,
+      "distance": 0.0,
+      "no": 1,
+      "scharr": "SOURCE",
+      "station": {
+        "lat": 20.5992349,
+        "code": "BL",
+        "lng": 72.9342451,
+        "name": "VALSAD"
+      },
+      "halt": -1,
+      "schdep": "04:05"
+    },
+    {
+      "day": 1,
+      "distance": 9.0,
+      "no": 2,
+      "scharr": "04:15",
+      "station": {
+        "lat": 20.6903051,
+        "code": "DGI",
+        "lng": 72.94967609999999,
+        "name": "DUNGRI"
+      },
+      "halt": 1,
+      "schdep": "04:16"
+    },
+    {
+      "day": 1,
+      "distance": 18.0,
+      "no": 3,
+      "scharr": "04:25",
+      "station": {
+        "lat": 20.7690264,
+        "code": "BIM",
+        "lng": 72.9777738,
+        "name": "BILIMORA JN"
+      },
+      "halt": 1,
+      "schdep": "04:26"
+    },
+    {
+      "day": 1,
+      "distance": 24.0,
+      "no": 4,
+      "scharr": "04:33",
+      "station": {
+        "lat": 20.8175942,
+        "code": "AML",
+        "lng": 72.95491489999999,
+        "name": "AMALSAD"
+      },
+      "halt": 1,
+      "schdep": "04:34"
+    },
+    {
+      "day": 1,
+      "distance": 39.0,
+      "no": 5,
+      "scharr": "04:48",
+      "station": {
+        "lat": 20.9467019,
+        "code": "NVS",
+        "lng": 72.95203479999999,
+        "name": "NAVSARI"
+      },
+      "halt": 2,
+      "schdep": "04:50"
+    },
+    {
+      "day": 1,
+      "distance": 47.0,
+      "no": 6,
+      "scharr": "04:58",
+      "station": {
+        "lat": 21.0243434,
+        "code": "MRL",
+        "lng": 72.8899466,
+        "name": "MAROLI"
+      },
+      "halt": 2,
+      "schdep": "05:00"
+    },
+    {
+      "day": 1,
+      "distance": 54.0,
+      "no": 7,
+      "scharr": "05:06",
+      "station": {
+        "lat": 40.7819808,
+        "code": "SCH",
+        "lng": -73.9582743,
+        "name": "SACHIN"
+      },
+      "halt": 2,
+      "schdep": "05:08"
+    },
+    {
+      "day": 1,
+      "distance": 65.0,
+      "no": 8,
+      "scharr": "05:19",
+      "station": {
+        "lat": 21.1431152,
+        "code": "UDN",
+        "lng": 72.8431097,
+        "name": "UDHNA JN"
+      },
+      "halt": 2,
+      "schdep": "05:21"
+    },
+    {
+      "day": 1,
+      "distance": 69.0,
+      "no": 9,
+      "scharr": "05:38",
+      "station": {
+        "lat": 21.1702401,
+        "code": "ST",
+        "lng": 72.83106070000001,
+        "name": "SURAT"
+      },
+      "halt": 5,
+      "schdep": "05:43"
+    },
+    {
+      "day": 1,
+      "distance": 82.0,
+      "no": 10,
+      "scharr": "05:57",
+      "station": {
+        "lat": -8.5090428,
+        "code": "SYN",
+        "lng": 115.2452322,
+        "name": "SAYAN"
+      },
+      "halt": 1,
+      "schdep": "05:58"
+    },
+    {
+      "day": 1,
+      "distance": 92.0,
+      "no": 11,
+      "scharr": "06:07",
+      "station": {
+        "lat": 37.503661,
+        "code": "KIM",
+        "lng": -94.85132,
+        "name": "KIM"
+      },
+      "halt": 1,
+      "schdep": "06:08"
+    },
+    {
+      "day": 1,
+      "distance": 100.0,
+      "no": 12,
+      "scharr": "06:17",
+      "station": {
+        "lat": 21.4554227,
+        "code": "KSB",
+        "lng": 72.9578676,
+        "name": "KOSAMBA JN"
+      },
+      "halt": 1,
+      "schdep": "06:18"
+    },
+    {
+      "day": 1,
+      "distance": 108.0,
+      "no": 13,
+      "scharr": "06:26",
+      "station": {
+        "lat": 21.5310601,
+        "code": "PAO",
+        "lng": 72.9637728,
+        "name": "PANOLI"
+      },
+      "halt": 1,
+      "schdep": "06:27"
+    },
+    {
+      "day": 1,
+      "distance": 118.0,
+      "no": 14,
+      "scharr": "06:35",
+      "station": {
+        "lat": 21.6264236,
+        "code": "AKV",
+        "lng": 73.0151984,
+        "name": "ANKLESHWAR JN"
+      },
+      "halt": 2,
+      "schdep": "06:37"
+    },
+    {
+      "day": 1,
+      "distance": 127.0,
+      "no": 15,
+      "scharr": "06:50",
+      "station": {
+        "lat": 21.7051358,
+        "code": "BH",
+        "lng": 72.9958748,
+        "name": "BHARUCH JN"
+      },
+      "halt": 2,
+      "schdep": "06:52"
+    },
+    {
+      "day": 1,
+      "distance": 139.0,
+      "no": 16,
+      "scharr": "07:04",
+      "station": {
+        "lat": 21.8116854,
+        "code": "NIU",
+        "lng": 73.03905189999999,
+        "name": "NABIPUR"
+      },
+      "halt": 1,
+      "schdep": "07:05"
+    },
+    {
+      "day": 1,
+      "distance": 153.0,
+      "no": 17,
+      "scharr": "07:17",
+      "station": {
+        "lat": 21.9212464,
+        "code": "PLJ",
+        "lng": 73.07889569999999,
+        "name": "PALEJ"
+      },
+      "halt": 1,
+      "schdep": "07:18"
+    },
+    {
+      "day": 1,
+      "distance": 168.0,
+      "no": 18,
+      "scharr": "07:30",
+      "station": {
+        "lat": 22.055216,
+        "code": "MYG",
+        "lng": 73.11725729999999,
+        "name": "MIYAGAM KARJAN"
+      },
+      "halt": 1,
+      "schdep": "07:31"
+    },
+    {
+      "day": 1,
+      "distance": 197.0,
+      "no": 19,
+      "scharr": "08:03",
+      "station": {
+        "lat": 22.3071588,
+        "code": "BRC",
+        "lng": 73.1812187,
+        "name": "VADODARA JN"
+      },
+      "halt": 5,
+      "schdep": "08:08"
+    },
+    {
+      "day": 1,
+      "distance": 218.0,
+      "no": 20,
+      "scharr": "08:31",
+      "station": {
+        "lat": 22.4562973,
+        "code": "VDA",
+        "lng": 73.0611882,
+        "name": "VASAD JN"
+      },
+      "halt": 1,
+      "schdep": "08:32"
+    },
+    {
+      "day": 1,
+      "distance": 233.0,
+      "no": 21,
+      "scharr": "08:46",
+      "station": {
+        "lat": 22.5584995,
+        "code": "ANND",
+        "lng": 72.9625629,
+        "name": "ANAND JN"
+      },
+      "halt": 2,
+      "schdep": "08:48"
+    },
+    {
+      "day": 1,
+      "distance": 241.0,
+      "no": 22,
+      "scharr": "08:58",
+      "station": {
+        "lat": 22.611204,
+        "code": "KBRV",
+        "lng": 72.9327686,
+        "name": "KANJARI BORIYAV"
+      },
+      "halt": 1,
+      "schdep": "08:59"
+    },
+    {
+      "day": 1,
+      "distance": 252.0,
+      "no": 23,
+      "scharr": "09:08",
+      "station": {
+        "lat": 22.6915853,
+        "code": "ND",
+        "lng": 72.86336349999999,
+        "name": "NADIAD JN"
+      },
+      "halt": 2,
+      "schdep": "09:10"
+    },
+    {
+      "day": 1,
+      "distance": 269.0,
+      "no": 24,
+      "scharr": "09:25",
+      "station": {
+        "lat": 22.8118178,
+        "code": "MHD",
+        "lng": 72.7510921,
+        "name": "MHMDVD KHEDA RD"
+      },
+      "halt": 2,
+      "schdep": "09:27"
+    },
+    {
+      "day": 1,
+      "distance": 281.0,
+      "no": 25,
+      "scharr": "09:44",
+      "station": {
+        "lat": 22.894531,
+        "code": "BJD",
+        "lng": 72.6786796,
+        "name": "BAREJADI"
+      },
+      "halt": 1,
+      "schdep": "09:45"
+    },
+    {
+      "day": 1,
+      "distance": 294.0,
+      "no": 26,
+      "scharr": "10:05",
+      "station": {
+        "lat": 22.9961698,
+        "code": "MAN",
+        "lng": 72.5995843,
+        "name": "MANINAGAR"
+      },
+      "halt": 2,
+      "schdep": "10:07"
+    },
+    {
+      "day": 1,
+      "distance": 297.0,
+      "no": 27,
+      "scharr": "10:25",
+      "station": {
+        "lat": 23.022505,
+        "code": "ADI",
+        "lng": 72.5713621,
+        "name": "AHMEDABAD JN"
+      },
+      "halt": -1,
+      "schdep": "DEST"
+    }
+  ],
+  "response_code": 200,
+  "debit": 1
+}

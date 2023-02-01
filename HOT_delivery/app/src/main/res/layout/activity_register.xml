@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_loginsignup_style2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/inputCont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Register"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:padding="10dp"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_img"
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:src="@drawable/delivery_person"
+                        android:layout_gravity="center" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose profile picture"
+                        android:textSize="13sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:id="@+id/name"
+                        style="@style/LoginSignUp2Input"
+                        android:layout_marginTop="25dp"
+                        android:hint="Fullname"
+                        android:inputType="textEmailAddress"/>
+
+
+                    <EditText
+                        android:id="@+id/email"
+                        style="@style/LoginSignUp2Input"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress" />
+
+                    <EditText
+                        android:id="@+id/pass"
+                        style="@style/LoginSignUp2Input"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@+id/c_pass"
+                        style="@style/LoginSignUp2Input"
+                        android:hint="Confirm Password"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@+id/contact"
+                        style="@style/LoginSignUp2Input"
+                        android:hint="Contact number"
+                        android:maxLength="10"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/account"
+                        style="@style/LoginSignUp2Input"
+                        android:hint="Account number"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/ifsc"
+                        style="@style/LoginSignUp2Input"
+                        android:hint="IFSC code"
+                        android:maxLength="10"
+                        android:inputType="textCapCharacters" />
+
+                        <Spinner
+                            android:id="@+id/state"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            style="@style/LoginSignUp2Input"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp" />
+
+                        <Spinner
+                            android:id="@+id/city"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            style="@style/LoginSignUp2Input"/>
+
+
+                    <Button
+                        android:id="@+id/document"
+                        android:background="@color/blue_500"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Upload driving licence"
+                        android:textColor="@android:color/white" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Already have account? " />
+
+                        <TextView
+                            android:id="@+id/txtSignin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sign In"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:background="#fe5824"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_below="@+id/inputCont"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Create An Account"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</ScrollView>

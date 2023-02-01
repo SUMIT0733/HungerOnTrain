@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/googlesans</item>
+    </style>
+
+    <style name="Select_city" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/red_300</item>
+        <item name="colorPrimaryDark">@color/red_600</item>
+        <item name="colorAccent">@color/green_600</item>
+        <item name="android:fontFamily">@font/googlesans</item>
+    </style>
+
+    <style name="Section_menu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@color/transparent</item>
+        <item name="android:actionBarStyle">@style/widget_ActionBar</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/red_600</item>
+        <item name="colorAccent">@color/red_300</item>
+        <item name="android:fontFamily">@font/googlesans</item>
+    </style>
+
+    <style name="widget_ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red_300</item>
+        <item name="colorPrimaryDark">@color/red_600</item>
+        <item name="colorAccent">@color/grey_40</item>
+        <item name="android:fontFamily">@font/googlesans</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="checkOutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/red_300</item>
+        <item name="colorPrimaryDark">@color/red_600</item>
+        <item name="colorAccent">@color/grey_40</item>
+        <item name="android:fontFamily">@font/googlesans</item>
+    </style>
+
+    <style name="Dialog_Theme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryDark">@color/blue_800</item>
+        <item name="colorAccent">@color/red_300</item>
+        <item name="android:fontFamily">@font/googlesans</item>
+    </style>
+
+
+
+    <color name="transparent">#00000000</color>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Ratingbar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_400</item>
+        <item name="colorControlActivated">@color/green_500</item>
+    </style>
+
+    <style name="Ratingbar_small" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_400</item>
+        <item name="colorControlActivated">@color/green_500</item>
+    </style>
+</resources>

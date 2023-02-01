@@ -1,0 +1,2081 @@
+{
+  "status": "OK",
+  "summary": {
+    "route": [
+      {
+        "location": {
+          "lat": 22.5688,
+          "lng": 72.97962
+        },
+        "address": "Anand, GJ, India"
+      },
+      {
+        "location": {
+          "lat": 21.16985,
+          "lng": 72.66669
+        },
+        "address": "Mora, Hazira, GJ, India"
+      }
+    ],
+    "rates": {
+      "USD": 1,
+      "CAD": 1.33605,
+      "MXN": 18.97355,
+      "INR": 69.533503
+    },
+    "currency": "INR",
+    "countries": [
+      "IND"
+    ],
+    "departure_time": 1555434539,
+    "fuelPrice": {
+      "value": 70,
+      "currency": "INR"
+    },
+    "fuelEfficiency": {
+      "city": 23.4,
+      "hwy": 30,
+      "units": "mpg"
+    },
+    "vehicleType": "2AxlesAuto",
+    "share": {
+      "prefix": "anand%2Cgj-hazira%2Cgj",
+      "uuid": "c315671f-7fb3-4493-b69b-c93c007aa871"
+    },
+    "source": "HERE"
+  },
+  "routes": [
+    {
+      "summary": {
+        "hasTolls": true,
+        "diffs": {
+          "cheapest": 200,
+          "fastest": 0
+        },
+        "url": "https://www.google.com/maps/?saddr=22.568799,72.9796186&daddr=22.4206173,73.1197858+to:22.2789431,73.2431674+to:22.0528865,73.1288731+to:21.7257535,73.0068111+to:21.5668702,73.0017364+to:21.2652075,72.8462112+to:21.1698507,72.6666857&via=1,2,3,4,5,6",
+        "distance": {
+          "text": "127.6 mi",
+          "metric": "205.3 km",
+          "value": 205328
+        },
+        "duration": {
+          "text": "5 h 21 min",
+          "value": 19280
+        },
+        "name": "NH-48",
+        "note": []
+      },
+      "costs": {
+        "fuel": 1374,
+        "cash": 210
+      },
+      "tolls": [
+        {
+          "id": 9104660,
+          "lat": 22.45625,
+          "lng": 73.07045,
+          "name": "Vasad",
+          "road": "GJ SH 188",
+          "state": "Gujarat",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [],
+          "tagSecondary": [],
+          "oneWay": 120,
+          "return": 180,
+          "monthly": 3960
+        },
+        {
+          "id": 9103021,
+          "lat": 22.01525,
+          "lng": 73.11525,
+          "name": "Bharthan/Karjan",
+          "road": "NH48",
+          "state": "Gujarat",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [],
+          "tagSecondary": [],
+          "oneWay": 90,
+          "return": 135,
+          "monthly": 2970
+        }
+      ],
+      "directions": [
+        {
+          "position": {
+            "latitude": 22.568799,
+            "longitude": 72.9796186
+          },
+          "maneuver": "forward",
+          "html_instructions": "Head <span class=\"heading\">southeast</span> on <span class=\"street\">NH-8</span> <span class=\"number\">(NH-48/NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">8.4 mi</span>.</span>",
+          "distance": 13557,
+          "duration": 1064,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.4710751,
+            "longitude": 73.0581594
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mahi Bridge</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Vadodara</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">6.0 mi</span>.</span>",
+          "distance": 9631,
+          "duration": 821,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.4206173,
+            "longitude": 73.1197858
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Sankheda Bridge</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.9 mi</span>.</span>",
+          "distance": 3020,
+          "duration": 227,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.4001467,
+            "longitude": 73.1387115
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Service Road</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.2 mi</span>.</span>",
+          "distance": 6768,
+          "duration": 594,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3662329,
+            "longitude": 73.1883752
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Dumad Chowkadi</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.6 mi</span>.</span>",
+          "distance": 4161,
+          "duration": 360,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3529291,
+            "longitude": 73.2260013
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.2 mi</span>.</span>",
+          "distance": 1936,
+          "duration": 159,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3449576,
+            "longitude": 73.2420623
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.4 mi</span>.</span>",
+          "distance": 2287,
+          "duration": 186,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3276091,
+            "longitude": 73.2537997
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.9 mi</span>.</span>",
+          "distance": 2981,
+          "duration": 245,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3011947,
+            "longitude": 73.2539499
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.7 mi</span>.</span>",
+          "distance": 2800,
+          "duration": 228,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.2789431,
+            "longitude": 73.2431674
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">4.9 mi</span>.</span>",
+          "distance": 7872,
+          "duration": 630,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.2278953,
+            "longitude": 73.1921196
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Mumbai</span>/<span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">6.5 mi</span>.</span>",
+          "distance": 10404,
+          "duration": 849,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.1405733,
+            "longitude": 73.1834614
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">8.3 mi</span>.</span>",
+          "distance": 13299,
+          "duration": 1056,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.0528865,
+            "longitude": 73.1288731
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">9.2 mi</span>.</span>",
+          "distance": 14753,
+          "duration": 1206,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.9277346,
+            "longitude": 73.082943
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">8.1 mi</span>.</span>",
+          "distance": 13091,
+          "duration": 1083,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.8161225,
+            "longitude": 73.0433428
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">6.0 mi</span>.</span>",
+          "distance": 9601,
+          "duration": 762,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.7350125,
+            "longitude": 73.0258548
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Service Road</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 548,
+          "duration": 67,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.7312574,
+            "longitude": 73.0292773
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">125 ft</span>.</span>",
+          "distance": 38,
+          "duration": 6,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7310643,
+            "longitude": 73.0289769
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Bharuch Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.8 mi</span>.</span>",
+          "distance": 1226,
+          "duration": 125,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7282212,
+            "longitude": 73.0175292
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Bharuch Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.7 mi</span>.</span>",
+          "distance": 1143,
+          "duration": 121,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7257535,
+            "longitude": 73.0068111
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from A B C Circle roundabout onto <span class=\"number\">SH-6/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.5 mi</span>.</span>",
+          "distance": 2375,
+          "duration": 232,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7054009,
+            "longitude": 73.0002558
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from Golden Circle roundabout onto <span class=\"number\">SH-6/SH-64/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 364,
+          "duration": 70,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7023754,
+            "longitude": 73.0004168
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">NH-228</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.3 mi</span>.</span>",
+          "distance": 6947,
+          "duration": 628,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6437101,
+            "longitude": 73.0071759
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-64/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.7 mi</span>.</span>",
+          "distance": 1144,
+          "duration": 112,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6337109,
+            "longitude": 73.0047727
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.9 mi</span>.</span>",
+          "distance": 1430,
+          "duration": 183,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6211474,
+            "longitude": 73.002305
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 248,
+          "duration": 60,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6192913,
+            "longitude": 73.0036032
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 438,
+          "duration": 39,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.6161156,
+            "longitude": 73.0011034
+          },
+          "maneuver": "forward",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Amlakhadi Bridge</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 476,
+          "duration": 47,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.6121781,
+            "longitude": 72.9994297
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.2 mi</span>.</span>",
+          "distance": 5182,
+          "duration": 442,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.5668702,
+            "longitude": 73.0017364
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">13.0 mi</span>.</span>",
+          "distance": 20968,
+          "duration": 1791,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3897157,
+            "longitude": 72.9600334
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Navsari</span>/<span lang=\"en\">Manor</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.1 mi</span>.</span>",
+          "distance": 1727,
+          "duration": 145,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3745022,
+            "longitude": 72.9578555
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.6 mi</span>.</span>",
+          "distance": 5838,
+          "duration": 462,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3228214,
+            "longitude": 72.9637885
+          },
+          "maneuver": "uTurnRight",
+          "html_instructions": "Make a U-Turn onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 899,
+          "duration": 103,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3305032,
+            "longitude": 72.9624903
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-168</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.6 mi</span>.</span>",
+          "distance": 5754,
+          "duration": 459,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.3032842,
+            "longitude": 72.9169142
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from roundabout onto <span class=\"number\">SH-168</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.6 mi</span>.</span>",
+          "distance": 4247,
+          "duration": 437,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2887144,
+            "longitude": 72.8801143
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue toward <span class=\"sign\">Delad Gam Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.9 mi</span>.</span>",
+          "distance": 1457,
+          "duration": 115,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2845302,
+            "longitude": 72.8667784
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Delad Gam Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.1 mi</span>.</span>",
+          "distance": 1825,
+          "duration": 200,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2783718,
+            "longitude": 72.8505671
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hazira Sayan Road</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.0 mi</span>.</span>",
+          "distance": 1552,
+          "duration": 175,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2652075,
+            "longitude": 72.8462112
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Hazira Sayan Road</span> <span class=\"number\">(SH-168)</span>. <span class=\"distance-description\">Go for <span class=\"length\">10.2 mi</span>.</span>",
+          "distance": 16469,
+          "duration": 1597,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1908782,
+            "longitude": 72.7224433
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">4th exit</span> from Ongc Chaurasta roundabout onto <span class=\"next-street\">Hajira Main Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.1 mi</span>.</span>",
+          "distance": 173,
+          "duration": 36,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1907065,
+            "longitude": 72.7212095
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hajira Main Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">85 ft</span>.</span>",
+          "distance": 26,
+          "duration": 12,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1906528,
+            "longitude": 72.7209735
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">112 ft</span>.</span>",
+          "distance": 34,
+          "duration": 15,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1903632,
+            "longitude": 72.7208769
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">115 ft</span>.</span>",
+          "distance": 35,
+          "duration": 7,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1903846,
+            "longitude": 72.7205551
+          },
+          "maneuver": "lightLeft",
+          "html_instructions": "Turn <span class=\"direction\">slightly left</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.5 mi</span>.</span>",
+          "distance": 5616,
+          "duration": 620,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1784863,
+            "longitude": 72.6688099
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from roundabout onto <span class=\"next-street\">Hazaira Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 988,
+          "duration": 170,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1698507,
+            "longitude": 72.6666857
+          },
+          "maneuver": "forward",
+          "html_instructions": "Arrive at <span class=\"street\">Hazaira Road</span> <span class=\"number\">(NH-53)</span>.",
+          "distance": 0,
+          "duration": 0,
+          "note": []
+        }
+      ],
+      "polyline": "_~vhCsyl|Lx@k@zOyJfEoCfXsPnGqD`DmBzHkFlPwJnJsGtCaCpCeCdHqF`CoBlIyHpLmJdFwDvA_AxCeB`BkArNuKro@af@nJmH`F}DfIkG`KsIrDaDzRkObLkJpH_GhHcG~KsIpDwCtA_AbOgMrEuDbBiBjH}G`OsOlFcFlFmFnCeClDgCvDyCdYaTpBqA|HuEzCcBdAq@|KqGfD{BbXcSpGuE`c@qZlj@aa@lFwDdMsJxNsK~MuKzC}BzMkKxKcJ~EwDlB{@xBc@r@GnAE`CDtB`@vA`@zJ`DdGbBnAVpBPrBJpA?dAAjBSlBY`Co@`K{DtC_Ap@]f@_@dBeBpIuK~GeIfB}BdAmAzE_Fp@y@x@iAfBqCb@iATw@TcBJ{AJ{L?oCRkRHqLn@uJl@gHTmBnAiHz@gERaBZ{DR{Df@wETsAdAmFbBuFj@eCj@yC~@kGxAyGLy@\\_Dx@cJ`BmN|@aHf@yB\\}@lBeD~B}Cv@w@`FmCjFaDhBeApAq@rFeDzDkBjKmGjC{AdCmA~AeAjIiEzEmC^YhAq@tB}AfFmEjAkAvC}BdAkAvJsMj@{@fC_DtH{G~A}A|DqDz@eAzEuGdD}EvDkFbBsBbAgA`@[nCkB`HkDBOJQr@WpGyCtQkIfDwApAm@jH}C`A]dFaCP?JDPKtFgCtDgBtB}@|BiAd@[z@q@X[tIsLbCuCfA}AbNiObB_BnDmDdC{B|EgErMsLjAiAv@kAd@y@j@qA^uAR{AFeA@cAAmAE_BWyEEmFBwALuCd@yGLaAdAkErAiEb@eAtE_JbBcEvAeDdFcTjAeFvE{R|@mC~@wBvAyCv@{Bn@wB^eB~@}EzDgTbAwFT_ARm@^kAvAqDd@}@rD}Fr@sAb@_Az@mCtCaO|B_MbAuFbE}S`BsJ~CgOpGoUxAuEb@_BnAaEf@iBp@}Cx@yClCiLpD_OtDqPx@gD`@mBj@sBzDyOdDmNj@wBlEkRxC}MnA}E`@eAXs@`@y@nByCrA{AbA_Ax@q@|@q@r@a@j@[tDwAl`@kOdD{A`Ak@~HwF`HgFhJwGjIkGfRsM`CiBtBuA~EyC|@c@bBo@r@UdDo@hAO~AIbA?nDFdUf@nLPpAJvBB`KXxBDxAHvCFvBJhGXvJZjBDlHR|Kd@pA?xBF|J`@xTl@|CJb@DzEFfAFbGb@dCV|B^tEhAbGvBrDnBhCdBrNnKfChBbAz@d@VfBxApGzEtEvDjRjN|@n@zDzCtG~EnCjBvHbGzM~JhGhEhF|D~KzI|JxHlClBj@f@~FxEjNlLrJ|HnBbBlJ~HtOhMj@j@vEhDtJpGbBbAvA`A|JnG~AhAnH|Fd@ZjEvD|FxE|IdItCfCbNlMnR`QjAlAtGbGvAzB^v@d@nA|GtSlJh[fC|Hp@zBd@dBb@tBlBzHj@nB|@pBv@pAp@~@x@~@`BzAn@\\NJ`Ad@pAd@~@T|AV`BNj@BdA?xDKzE}@`LaDlJiE`Bo@~Bq@hAW~@OxNuAtHu@rq@_G`CUz@KdCMlA?|AB|@H~RnBvBVdDj@pA^|@\\r@\\nG~DzMvKxDrCv@d@`Ab@dA`@jBf@`BZ|BVbV`ApEV`Hf@jg@zIhRnDdEr@dAJxBHfBGxXwAfCKlEWrBUj@KhNgDhHkBbG_BlDeAhFsAnDu@jAOpAIvA@zAHxPlCj@J~Ab@`EpBhG|EdAh@xChAf@Jt@H~@BzAA`AEjBQlDg@~ASvF{@v@OlBe@lEsB|DaBn@MjAYnDeAzPkDfEaAh@QbLeCxI{BpAUjBW~H{@hNuAvEa@nJgAhCSbFa@|Hc@h]wB|CUjF]bKy@vKq@hDOxB@jAH`AP~D`AnFvArAThCb@dAJvCb@bCZtFh@hDl@^LhCjA~@h@lBlBfArAbAvBp@fBZlARrAN~Ar@vRx@jFbKz_@|AfGfAzD~CdMhE|OXv@bBzCbBhCnBrBxCfC`NhKxCjCtIpGlCtCx@hAhA`CvCnL`CnKv@zCjAdFjD~Mp@vBTj@Vd@|@tAxAfBtAjAvBpArCxAxIjE~L`GjCdB\\Zn@t@d@n@xBnEtLzWx@dAtJxK|FfGvEfFdJdKjHrHrAx@zBx@vF`B~QzEPBjNvDzSjFr_@|JtCn@hElAxFrA`NpDxBh@xOlEXDxItBrLhDhH`B~L~Cf@JdJfClM|CxDdAd\\xIzLtCbCz@rDdAna@zK~FvA~XpHfSpFvDfAfNtDrCd@tBB~CQtDW|CGpBLbEz@tDdA`AZv@ZdAf@hCzAdAz@lEtE|@x@pA~@hBz@hDdA|EnAbHbB|JhCf^`JrBn@xEfA~JnCbZlInm@fQh_@tJhFzArHhB|DbAd]bJlFpAzc@jLdSdFhG|A|UrGfFpAra@`LfXbHnJfCbE`AdRbFjPhEpFpAvY`IzKtCvBh@dXpHpBn@`PlEfDx@fA\\~PvErXxHpEhA~`@tK`AT|B`@teAjOzDp@~Dj@jG`AfZhErDj@zDf@fQ`CrFx@tB^rGx@pJzA|APtEx@pAX~`@pMr@VfF`B~JjDfMbErf@~PrJbDb@Jf@RvP~Fbr@xVxDnAnUvHbd@tNlM~DxhBtm@tUrH|eAvWrKhCxGbBvUxGvO`F|RtFnJpCrI|BvCb@t@FhCDhBKz@Ip@IdAUdL_DdEqAhJgCdOoEbYsHnJiCvKgCdBe@xE{AjAi@b@UP[ZYz@g@lA}@pF{EbIuH\\j@HNV~@B^`BnJxF|^~DbXfB|MbAxGnA~H|CfUf@fDTfBTnADD@FzH`C\\LzDhAnDjAxDjAxPlF`NbENFxDhAbBl@xJvCfCXrF`@lIt@zGd@zEb@vEVJKLBFPAHEFrAFvBLl@?fIqAjCi@fAQ~Ae@nRyIbHmCpNyGzQeIbA[vFeC|Ai@HKjEoBzBy@jCu@~By@tYoMd@UrAy@lAmAnCkCtAeAh@]lBcAxBq@bASdAO|BQ~ACzOErB@hADrGf@fD^rXjEvf@tHd{@lMf@D`En@jLjBjRdDh_@nGtJbB`IzAjBZj@FV?`@Cz@MdDa@lAMl@?z@FjCb@xC^vGfAtQpCfN|BtNvBn@QnH}ERQ~FhFhA~@hBnAdExBPRDN|@`@bBr@f@L|Al@jCz@lEdAxBTpIf@zAHvBRjDR|Lx@zUxBl`@vDx@BxATbJz@dF^|DLbC?lADnBVjFdAxBZ~J~@dCZtGb@vA@n@Gf@Kr[oIbBc@|F_B|D_Axd@{LtQ}EzBo@zBg@rMyDxHkB~@YnZ}HdFoAhXmHhCo@fEaAjBWv@GrAChACdABzH^~Lr@hBH`H@|BBz@FfAVlAL~AVvAR~CVdl@pD`e@dCrEZhh@xCzKp@~EV|\\rBbAHjAF|ObA~CNfXjBzJl@~Lx@vO|@nO`AbGb@`G\\fSrArMr@|AJtD^dWzA|CVpLz@p@Drf@lDlBHnBT|Cn@lBr@x@\\~@f@n@`@dAt@vOxLdGrExSfPbQzMtKbIhBvA|F~ErHxFlSbPdG`F|DzCh@ZhXfTjKdIdDpCrKlIdMzJnE|ChAn@pAf@`Bh@xAXfD^tIt@dIl@bGf@tHj@dJ^`BNlMz@~DTxK~@vJp@nBPf_@pCpKr@vBLfDHnG\\hG`@bHj@zCd@fBf@|NjDhPlDtDp@xEbAlDp@lCj@xJ`Cv_@dJnGjAxC\\dCLtABtBAfAE`II|PWfGEZ?|BOxZkDrEa@|`@_DpKs@rKJzQLfJH|BDpb@xCj@H~L`Az@@bAEpAMzJaBjGmAnFmAjYsFbIyArGqA|HwAtA[lMgC|Cg@`BSnACrA?vEGfLK?`AqBFqAF{IMqDHeCJcDXmEr@uHzAtd@ryBTr@FXzDpJd@vAzCvG`@t@~LrQ|F~IvJnMlBhCzP`[x@hAnChDfAdAzO|MnIfGxYrWV\\FCFBDD@NxNlMx@x@|E`G`AvAnBrDvA`DvCfGl@tAp@lBlC`HjDtJnAfFf@pCx@tDpGxZvCnMpA|Gr@lD`@~BTtABd@b@rDt@zEXzBh@`Gn@lFTxBCVj@bFJfAAbAFzAv@~Et@dFpAjHpC`K?FpAnGxCbNl@~DnIv`@TbAp@nDbDjQVv@d@pCTdAxBnL\\tC\\xApIhUrClHtHfSDT?VhB|At@d@xSfHnDfAfG|Bf@NlAXp@LtBZ|OhBvBJ~DDpAHlAP`AHHl@~Fja@vB~MRfCFfDH~AVtDj@hGFhAC\\QbA_@pAsDpLiCbI[vAWrBGrA?pFStICrCB~DTbDPtA@bA{@jEMjACv@Dj@Vl@b@t@|DzDdAz@zFzFtAlAbTjQPPRd@Vx@`FnV~DtRl@nDh@bKd@lLh@lLLjDNlBp@`DrAjFlCjJnCfJ`BdFdBhGvIpXrApFbDrLRTJXzCjJnFhQbDjKt@vBtFrQfDnKZdAn@~CRv@HRZXlDfCxO`JpLrG~BjAlFtCfMtGfEpBjGzBzClAnFzBpn@v^vFlD|@l@vLhHzGxDzEdDhXrWtHdJxBdCVVtFxG|HhJl@v@xCpEZh@zEnHdDbF~EtIrArB|@hAjAlAdA~@`SpSzEzEjBpBxR`SpCnC~@dALLNHPBFCT?ZHJFHNFNBRAd@ILAN_@hAKd@Jn@V@`@N@j@ERJ~B^vBLTJf@h@jD|AjH\\nB@\\GPlA`FxBlKjAzD`A|Bl@jAp@dB~GrOt@rBt@~BbIzXjBrF`A~CvHpXVbAd@hCLfAL|BZjLBvI^|OFnDt@zXTzHF|Cd@`PZtMl@fK`AvRLlBLd@\\p@T^RPP@dATdEh@bLhBh^hF"
+    },
+    {
+      "summary": {
+        "hasTolls": false,
+        "diffs": {
+          "cheapest": 0,
+          "fastest": 12
+        },
+        "url": "https://www.google.com/maps/?saddr=22.568799,72.9796186&daddr=22.3762536,72.9976916+to:22.2274768,73.0854213+to:21.9004512,72.9861045+to:21.7023754,73.0004168+to:21.5668702,73.0017364+to:21.2652075,72.8462112+to:21.1698507,72.6666857&via=1,2,3,4,5,6",
+        "distance": {
+          "text": "128.9 mi",
+          "metric": "207.3 km",
+          "value": 207321
+        },
+        "duration": {
+          "text": "5 h 33 min",
+          "value": 20024
+        },
+        "name": "NH-48",
+        "note": []
+      },
+      "costs": {
+        "fuel": 1384
+      },
+      "tolls": [],
+      "directions": [
+        {
+          "position": {
+            "latitude": 22.568799,
+            "longitude": 72.9796186
+          },
+          "maneuver": "forward",
+          "html_instructions": "Head <span class=\"heading\">southeast</span> on <span class=\"street\">NH-8</span> <span class=\"number\">(NH-48/NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.8 mi</span>.</span>",
+          "distance": 1242,
+          "duration": 102,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.5594056,
+            "longitude": 72.9861581
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"number\">NH-64</span> toward <span class=\"sign\"><span lang=\"en\">Anand</span>/<span lang=\"en\">Ode</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 412,
+          "duration": 87,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.5564015,
+            "longitude": 72.9884648
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Chikhodara Road</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.4 mi</span>.</span>",
+          "distance": 2191,
+          "duration": 250,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.5459623,
+            "longitude": 72.9704297
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from Rganesh Chowkdi roundabout onto <span class=\"next-street\">Anand Sojitra Road</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.8 mi</span>.</span>",
+          "distance": 1332,
+          "duration": 189,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.5436556,
+            "longitude": 72.9579091
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from roundabout onto <span class=\"next-street\">Borsad Road</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.6 mi</span>.</span>",
+          "distance": 4178,
+          "duration": 436,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.5080359,
+            "longitude": 72.9506135
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">6.7 mi</span>.</span>",
+          "distance": 10806,
+          "duration": 736,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.4253488,
+            "longitude": 72.9896128
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from roundabout. <span class=\"distance-description\">Go for <span class=\"length\">3.5 mi</span>.</span>",
+          "distance": 5564,
+          "duration": 502,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.3762536,
+            "longitude": 72.9976916
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-11</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.2 mi</span>.</span>",
+          "distance": 6773,
+          "duration": 466,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.3406446,
+            "longitude": 73.0474091
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-11</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.9 mi</span>.</span>",
+          "distance": 1414,
+          "duration": 137,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.3444319,
+            "longitude": 73.0605197
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Gotri Sevasi Road</span> <span class=\"number\">(SH-11)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.5 mi</span>.</span>",
+          "distance": 3983,
+          "duration": 348,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.3223519,
+            "longitude": 73.0841124
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> toward <span class=\"sign\">Padra Road/SH-160</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.8 mi</span>.</span>",
+          "distance": 7740,
+          "duration": 669,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.2591054,
+            "longitude": 73.1149149
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Padra Road</span> <span class=\"number\">(SH-160)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.4 mi</span>.</span>",
+          "distance": 2263,
+          "duration": 237,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.2540629,
+            "longitude": 73.0939615
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.5 mi</span>.</span>",
+          "distance": 2488,
+          "duration": 402,
+          "note": [
+            {
+              "type": "info",
+              "code": "unpavedRoad",
+              "text": "Unpaved road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.2323048,
+            "longitude": 73.0916226
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">33 ft</span>.</span>",
+          "distance": 10,
+          "duration": 12,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.2322404,
+            "longitude": 73.091687
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> toward <span class=\"sign\">SH-160</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.5 mi</span>.</span>",
+          "distance": 838,
+          "duration": 140,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.2274768,
+            "longitude": 73.0854213
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-160</span>. <span class=\"distance-description\">Go for <span class=\"length\">14.0 mi</span>.</span>",
+          "distance": 22581,
+          "duration": 1537,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.0472324,
+            "longitude": 73.1106126
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> toward <span class=\"sign\">SH-161</span>. <span class=\"distance-description\">Go for <span class=\"length\">131 ft</span>.</span>",
+          "distance": 40,
+          "duration": 7,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.0470929,
+            "longitude": 73.1102479
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-161</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.5 mi</span>.</span>",
+          "distance": 7203,
+          "duration": 584,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.0157969,
+            "longitude": 73.0525804
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.4 mi</span>.</span>",
+          "distance": 706,
+          "duration": 79,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 22.0097995,
+            "longitude": 73.0547798
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.8 mi</span>.</span>",
+          "distance": 7764,
+          "duration": 640,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9632149,
+            "longitude": 73.0099761
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.9 mi</span>.</span>",
+          "distance": 1432,
+          "duration": 123,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9678497,
+            "longitude": 72.9970372
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.8 mi</span>.</span>",
+          "distance": 1239,
+          "duration": 91,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9567347,
+            "longitude": 72.9962969
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.4 mi</span>.</span>",
+          "distance": 649,
+          "duration": 68,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9516921,
+            "longitude": 72.9943979
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">135 ft</span>.</span>",
+          "distance": 41,
+          "duration": 7,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9515955,
+            "longitude": 72.9940116
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 247,
+          "duration": 28,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9511127,
+            "longitude": 72.9919517
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.2 mi</span>.</span>",
+          "distance": 3543,
+          "duration": 246,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9197416,
+            "longitude": 72.9892266
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.4 mi</span>.</span>",
+          "distance": 2281,
+          "duration": 244,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.9004512,
+            "longitude": 72.9861045
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.5 mi</span>.</span>",
+          "distance": 3988,
+          "duration": 563,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.8780386,
+            "longitude": 73.0078197
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> toward <span class=\"sign\">NH-228/NH-64</span>. <span class=\"distance-description\">Go for <span class=\"length\">11.2 mi</span>.</span>",
+          "distance": 18090,
+          "duration": 1448,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7237473,
+            "longitude": 72.9988933
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">NH-228</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 989,
+          "duration": 139,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7150784,
+            "longitude": 72.9971552
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 261,
+          "duration": 37,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7152393,
+            "longitude": 72.9996336
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> toward <span class=\"sign\">SH-6/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 458,
+          "duration": 68,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7119026,
+            "longitude": 73.0010819
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"number\">SH-6/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.5 mi</span>.</span>",
+          "distance": 738,
+          "duration": 101,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7054009,
+            "longitude": 73.0002558
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from Golden Circle roundabout onto <span class=\"number\">SH-6/SH-64/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 364,
+          "duration": 70,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7023754,
+            "longitude": 73.0004168
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">NH-228</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.3 mi</span>.</span>",
+          "distance": 6947,
+          "duration": 628,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6437101,
+            "longitude": 73.0071759
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-64/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.7 mi</span>.</span>",
+          "distance": 1144,
+          "duration": 112,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6337109,
+            "longitude": 73.0047727
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.9 mi</span>.</span>",
+          "distance": 1430,
+          "duration": 183,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6211474,
+            "longitude": 73.002305
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 248,
+          "duration": 60,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6192913,
+            "longitude": 73.0036032
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 438,
+          "duration": 39,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.6161156,
+            "longitude": 73.0011034
+          },
+          "maneuver": "forward",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Amlakhadi Bridge</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 476,
+          "duration": 47,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.6121781,
+            "longitude": 72.9994297
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.2 mi</span>.</span>",
+          "distance": 5182,
+          "duration": 442,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.5668702,
+            "longitude": 73.0017364
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">13.0 mi</span>.</span>",
+          "distance": 20968,
+          "duration": 1791,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3897157,
+            "longitude": 72.9600334
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Navsari</span>/<span lang=\"en\">Manor</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.1 mi</span>.</span>",
+          "distance": 1727,
+          "duration": 145,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3745022,
+            "longitude": 72.9578555
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.6 mi</span>.</span>",
+          "distance": 5838,
+          "duration": 462,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3228214,
+            "longitude": 72.9637885
+          },
+          "maneuver": "uTurnRight",
+          "html_instructions": "Make a U-Turn onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 899,
+          "duration": 103,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.3305032,
+            "longitude": 72.9624903
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-168</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.6 mi</span>.</span>",
+          "distance": 5754,
+          "duration": 459,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.3032842,
+            "longitude": 72.9169142
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from roundabout onto <span class=\"number\">SH-168</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.6 mi</span>.</span>",
+          "distance": 4247,
+          "duration": 437,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2887144,
+            "longitude": 72.8801143
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue toward <span class=\"sign\">Delad Gam Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.9 mi</span>.</span>",
+          "distance": 1457,
+          "duration": 115,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2845302,
+            "longitude": 72.8667784
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Delad Gam Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.1 mi</span>.</span>",
+          "distance": 1825,
+          "duration": 200,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2783718,
+            "longitude": 72.8505671
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hazira Sayan Road</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.0 mi</span>.</span>",
+          "distance": 1552,
+          "duration": 175,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2652075,
+            "longitude": 72.8462112
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Hazira Sayan Road</span> <span class=\"number\">(SH-168)</span>. <span class=\"distance-description\">Go for <span class=\"length\">10.2 mi</span>.</span>",
+          "distance": 16469,
+          "duration": 1597,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1908782,
+            "longitude": 72.7224433
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">4th exit</span> from Ongc Chaurasta roundabout onto <span class=\"next-street\">Hajira Main Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.1 mi</span>.</span>",
+          "distance": 173,
+          "duration": 36,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1907065,
+            "longitude": 72.7212095
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hajira Main Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">85 ft</span>.</span>",
+          "distance": 26,
+          "duration": 12,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1906528,
+            "longitude": 72.7209735
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">112 ft</span>.</span>",
+          "distance": 34,
+          "duration": 15,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1903632,
+            "longitude": 72.7208769
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">115 ft</span>.</span>",
+          "distance": 35,
+          "duration": 7,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1903846,
+            "longitude": 72.7205551
+          },
+          "maneuver": "lightLeft",
+          "html_instructions": "Turn <span class=\"direction\">slightly left</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.5 mi</span>.</span>",
+          "distance": 5616,
+          "duration": 620,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1784863,
+            "longitude": 72.6688099
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from roundabout onto <span class=\"next-street\">Hazaira Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 988,
+          "duration": 170,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1698507,
+            "longitude": 72.6666857
+          },
+          "maneuver": "forward",
+          "html_instructions": "Arrive at <span class=\"street\">Hazaira Road</span> <span class=\"number\">(NH-53)</span>.",
+          "distance": 0,
+          "duration": 0,
+          "note": []
+        }
+      ],
+      "polyline": "_~vhCsyl|Lx@k@zOyJfEoCfXsPnGqDVi@bCwA|LiITh@~@jBf@tALLlArC~DnJvB|ElLzVxKbS@F~FbLpHjNn@pADXN\\rAvCL?LFBNX\\Zh@~@|BN|@z@lKx@pL~@zNr@lKDv@V|DJfBPbCHLpEtBpFtBhN~FVHlEdBv@T`@DtCB`HC|K@fT[P?ND|BI~FGdBGt@C`@Iz@YNK|Aq@jA[`AKbBAjCBt@DlHdA`ALhTpA|Fh@jGfAvEv@z@JnAVh@Dl@JpBRfJhA~ATh@LbA`@XPdIrIx@pAn@q@xBkBlAq@hGiEtGkEpN{J|CoBxCaCbEgCtB{AZQvL_IfKkHjAw@bAs@vA{@zC}BpE{CxAeA|B}ATQlE}CdNyJvIaGhA{@nBqAvTqOtCmBhA{@bNsJ`@c@f@kAx@uAxBuC^_@ZWvGcE`BiAfA}@nHqGlIaHlGyEfMcJ~A{AnIoGdH_GnCoB|CeCh@i@nAaA`BmAjF{CtAaAvC{AnBmAbPkKpE{CtEkDtBuAtAcA|AcARKNOf@Yz@SrAI|@?fCFrBR|GpApGpAv_@lHlHvAjDr@hDn@rB^xP`CvB^vCl@rLzBrE|@fANrDv@rB\\hAVhANNCnCj@HABD~AFLFd@BPCfIiBfKgC|Ck@bAKzCGnBUfBe@h[cHbKoCfCu@zEkAtB[hAExE?zEBrBDjTJxH]hCSdAErEYdBIxQmAbDK`CQn@?bOm@|DO`@?jEUxACbBSfDWfAKp@EjDWpAIhFc@pAGjHm@bF[zCY~@IdAUt@IxHi@vAObCa@|@]^OrBg@|Ak@tB_A~@i@jAk@~B_Cp@y@rAkB~E}FtAiB|CmE~EwGhAeBRUjBmCdB{BnEgG|O}TrRaXvByCHM~E_H|GiJ`DkEx@cA~MyQtU{\\|A}Bv@wA|@kCTqAT_CHoFFqILcPDkBHmLBcAFsAFq@^sBnAmDXm@p@aAz@aARO^[vAw@jE{BhDkBrE}BfBaATO`FiClGkDIw@_AwEi@mDg@{Bi@_B_@oBE_@c@gB_@yBYsAWcAyBcLqAsG{BuL[mAo@}ED]R[ZM~@O~CIjEW~BU~COZEvAW`BSvCMp@I~A[n@GpCKx@?tAKrAQhCa@`AG~DOhA?pAKrDu@~@YdAc@HIJOHYH_AF]Dg@RoDJg@nA}CZi@~BeDtAwBl@cApAaBp@eAf@eAhAeBP_@BQ^gAvByD`@o@zAqCjAwCh@mA`@g@RQbAiAj@y@Ta@j@sA`@}AZiBRi@Hy@OiAO[c@kB]w@Qy@Im@@c@Fc@XgAFInAuDPa@`@s@`BkBf@s@Ni@VoAj@}BxBeIDU@c@^AR@bD[vFaAt@KrNuBhCm@`H}Bt@YtDeA`DgAhHwB`KkDdDaAf@Sn@Qf@Qd@MjBo@pA_@hEwA|DuAlDuAv@S`Bw@nAs@t@[jCy@`AWtIyCpF_CvFmCRMlCiAlEeBfBm@pBw@TMb@KVQ\\IRIx@Sl@[z@YjAg@zDkBlBcAfAq@|BiA`Bu@jEyB~Aq@pDkBhAa@jAi@~Ai@hMaF\\K`CkAnGmCjDaBj@]dBq@|C{AxK_FhAi@tB_A^MhCkAzDaBRMhF}B~CsA\\MZO\\Mb@UvCiArD}AnBw@p@]vAk@lCiAbDoAdMmFtJcFvGsDhD_B`A]lIyDFlE?~APfIBdEPxCbGvd@b@~BVbAz@fCj@pBXn@~BxG~BpGHZRxAVbLFx@Jf@FZNd@Zt@`C`E|@L~RZfGAtDH`E?|HSvBCz@IjTk@tHOdEMzFM~@B`@BbCl@^PbJhE`MhGJMhBrAv@z@lB|C~DbG|GrKrCfEt@vAnEaAf@IzCGxGCbDSdMcAlJgArBMjA@v@JtERvC@f@CzB_@xYiGnAQzAKhAEjRNxJD`JNtJJnB?hCFt@DvBVdDh@|D~@~@Nn@@VEhAe@^Yt@y@NM`@Oh@KhBMpCe@vBKvAAv@?hCJfEEhCIp@Oh@SzFwDvHqE`@QjB[fFk@r@CfFKtBCpGKxC@jBA|BBlAKtAUfA[t@YlAk@XKj@Wh@YfAuAxCsExAoBhAcBd@k@`@a@n@g@XMt@SlAA`@BXFTJTPjAv@|Al@|@TxC^pBt@~Ar@tEfDtAr@z@Z|@RjB\\n@JpAHjDJhAFhEL~CFdAAzJc@dHSdGMrCIrLe@b\\aBxBMlBE`P}@nF]pDMzDI~CArCIv@?X@v@XfDnBtJjGnBpAbEvClGhEtPpLvA|@|IjGpFnDpA`AtFtDhC`BzCxBx@d@`A`@zAb@tAX|Gx@rBZlDj@bEv@nLnBfS~ClBT~ATzBNzCJz@@f@AhASjBm@|EsC~BoAr@i@Z]rE{G~CyEhI{MxHkLtCqEzAyBjCcEzAyBr@qAhHwKtBiDdFoHxCuEjAcBhF_IfQoXtAoBxHqLbAwAt@kAt@cA~F_JzJuNlCaELK\\e@d@_@|Am@n@QvAQn@A`A@pBLrO\\rJZfGJp@?zGVzBFl@?fAKrIsB~ImAfEY`AOLEVC`FcApHoAvCOzCRzGx@zKzAlEr@lBR~F|@vVdDzBV`JlAxCf@hOfB~CZ`IrAdAH~E|@VIPMZfAXPvArAfG`FzMjLjBxApDhDfDjCzG`G|@n@x@p@x@t@tAfAxCfCv@v@|BnB|BzBvAnAxFtF~JpKxBnBhJjJLd@Dl@FlBDxBHdCDhCPbBVbAf@lAd@z@jH|JzCbFpD|FHVbBfCjEnHl@fA`BhEj@vGZxCZ~DFrAhB`Qf@zFNbCTbBf@|EVrD~ApOn@`FRzBTxAZjDdApH\\lAXzAfCnKvBhK`EjQ`@xAVx@f@hAr@pAzA`DrA~B`@YnCq@`GuA|AWzCq@zFuAhE}Az@W`@R\\HjGtAjJjBfB`@rKrBjE`AzDp@tAv@\\Xj@t@NJjRba@|BdFdDdHt@rAdArAfQtW`I|LdD~EzEhGh@x@Vf@Rl@`BpGf@bC\\xBn@rB`CtLlAbFhDlJvHrRZpBjEdVLlAd@bHBtARbB^bBPj@R^b@\\lAfATPzCxAfVrKzFxBjAT|@Vd@F`@D`@?zLk@xGK\\@l@LhEdA`@DhACdCAzED~GPfE[bIu@R@PD_EbPw@xC_CnIcA~DcNli@VCnALzWx@zg@dANHdELZJNVZjANFTA~@BxAAnADbBf@`B`@RXb@vAZ\\THhA@b@BVFZAPlA~@LFFBJPnABf@DzCH^CXKj@nO^xsAt@hRKvE?nKSzJMbAHfK~BvIrApDRnBR`C|A`ErCnHGPC`@RXZVL`DThAXxAVTJl@`AHHRB~IKvAGrCUpBKjBEdA?n@Bv@F|@PjDL`JJNFDHNnAJJJBxCBfCJdEF`@Bf@Vz@VfEb@bJXv@NfBLJBFJNrAR`@VKrAYdBeAHSDw@LqANc@X]tCsArPgHHOEs@[{AAk@JMhASLS@_@YyHBUFMhAS~Eo@lB[TIRiAlAU|@ITIH]BuA?uB@YFQNIXAnAFh@?f@MZSNWH]l@gFVeD`@gE^_FFeB?cCB}@BSDITKnBMXMRQJ]Lq@TuCFYJYjDwD`C{Bj@e@hEgCt@_@j@m@Ve@p@eB`@k@VAxAQlEq@VGpBGZBb@PjCGj@QHOd@e@^Ap@Bz@Vf@F`@O^CbB@`BCzBMVCTQz@h@b@NpKpBr@R`Ad@z@z@lBxCzAlB~FlGZZ\\VhAf@vFhBdFpB|CnAzAh@fDpA`CbA`A\\tYnL`A\\fWpKtMhGhAf@`@TnNhLpAhAv@h@\\PfANlBPr@@hBGfEs@vUyEpIgBfL_CvAItBCrCMjAArEQhCEvAGzEs@vAWbMoBjEm@`D]vD]jS{A|D]`CM`Y_CdC[n@YpNiMjHyGdB{AzLmJj@a@p@_@xB^bDv@|JzB`AZTPLH`Ct@nAX`BXvFx@jC\\|LhAjQlAx@BvCXfCNd@?jEStEKbGa@tBExA?`EF`Xp@tFD|@CrH_@nHm@dKu@rCOfGa@tD[|Ji@nN[|DAvFIdEChBBdPGnDK`ADhBf@~HxCpJbDb@RnBbAnA^tEj@Z@d@@`AM^Av@KnBQdLmApBOpCa@tAMpA@dETvCLz@JnDZpG`@lIX\\DRHjAh@d@JlB?|CG`EYnBYjCm@tEAfDB`RiAp@?nFN`@YdA@nBPXHrDPtF@nGAhBD`FDlJx@xCJhCN|EB|@EvCWdA@bF\\bADtATfAX|BlAv@VnL~CzBd@vBd@tH`Al@DZFtADhAFlBBhAFp@?f@BnF?AGBm@HUB[QoDYmCGY?YBStHGdAKbBWz@UvAg@PQDODe@HoB@UrF`@lIt@zGd@zEb@vEVJKLBFPAHEFrAFvBLl@?fIqAjCi@fAQ~Ae@nRyIbHmCpNyGzQeIbA[vFeC|Ai@HKjEoBzBy@jCu@~By@tYoMd@UrAy@lAmAnCkCtAeAh@]lBcAxBq@bASdAO|BQ~ACzOErB@hADrGf@fD^rXjEvf@tHd{@lMf@D`En@jLjBjRdDh_@nGtJbB`IzAjBZj@FV?`@Cz@MdDa@lAMl@?z@FjCb@xC^vGfAtQpCfN|BtNvBn@QnH}ERQ~FhFhA~@hBnAdExBPRDN|@`@bBr@f@L|Al@jCz@lEdAxBTpIf@zAHvBRjDR|Lx@zUxBl`@vDx@BxATbJz@dF^|DLbC?lADnBVjFdAxBZ~J~@dCZtGb@vA@n@Gf@Kr[oIbBc@|F_B|D_Axd@{LtQ}EzBo@zBg@rMyDxHkB~@YnZ}HdFoAhXmHhCo@fEaAjBWv@GrAChACdABzH^~Lr@hBH`H@|BBz@FfAVlAL~AVvAR~CVdl@pD`e@dCrEZhh@xCzKp@~EV|\\rBbAHjAF|ObA~CNfXjBzJl@~Lx@vO|@nO`AbGb@`G\\fSrArMr@|AJtD^dWzA|CVpLz@p@Drf@lDlBHnBT|Cn@lBr@x@\\~@f@n@`@dAt@vOxLdGrExSfPbQzMtKbIhBvA|F~ErHxFlSbPdG`F|DzCh@ZhXfTjKdIdDpCrKlIdMzJnE|ChAn@pAf@`Bh@xAXfD^tIt@dIl@bGf@tHj@dJ^`BNlMz@~DTxK~@vJp@nBPf_@pCpKr@vBLfDHnG\\hG`@bHj@zCd@fBf@|NjDhPlDtDp@xEbAlDp@lCj@xJ`Cv_@dJnGjAxC\\dCLtABtBAfAE`II|PWfGEZ?|BOxZkDrEa@|`@_DpKs@rKJzQLfJH|BDpb@xCj@H~L`Az@@bAEpAMzJaBjGmAnFmAjYsFbIyArGqA|HwAtA[lMgC|Cg@`BSnACrA?vEGfLK?`AqBFqAF{IMqDHeCJcDXmEr@uHzAtd@ryBTr@FXzDpJd@vAzCvG`@t@~LrQ|F~IvJnMlBhCzP`[x@hAnChDfAdAzO|MnIfGxYrWV\\FCFBDD@NxNlMx@x@|E`G`AvAnBrDvA`DvCfGl@tAp@lBlC`HjDtJnAfFf@pCx@tDpGxZvCnMpA|Gr@lD`@~BTtABd@b@rDt@zEXzBh@`Gn@lFTxBCVj@bFJfAAbAFzAv@~Et@dFpAjHpC`K?FpAnGxCbNl@~DnIv`@TbAp@nDbDjQVv@d@pCTdAxBnL\\tC\\xApIhUrClHtHfSDT?VhB|At@d@xSfHnDfAfG|Bf@NlAXp@LtBZ|OhBvBJ~DDpAHlAP`AHHl@~Fja@vB~MRfCFfDH~AVtDj@hGFhAC\\QbA_@pAsDpLiCbI[vAWrBGrA?pFStICrCB~DTbDPtA@bA{@jEMjACv@Dj@Vl@b@t@|DzDdAz@zFzFtAlAbTjQPPRd@Vx@`FnV~DtRl@nDh@bKd@lLh@lLLjDNlBp@`DrAjFlCjJnCfJ`BdFdBhGvIpXrApFbDrLRTJXzCjJnFhQbDjKt@vBtFrQfDnKZdAn@~CRv@HRZXlDfCxO`JpLrG~BjAlFtCfMtGfEpBjGzBzClAnFzBpn@v^vFlD|@l@vLhHzGxDzEdDhXrWtHdJxBdCVVtFxG|HhJl@v@xCpEZh@zEnHdDbF~EtIrArB|@hAjAlAdA~@`SpSzEzEjBpBxR`SpCnC~@dALLNHPBFCT?ZHJFHNFNBRAd@ILAN_@hAKd@Jn@V@`@N@j@ERJ~B^vBLTJf@h@jD|AjH\\nB@\\GPlA`FxBlKjAzD`A|Bl@jAp@dB~GrOt@rBt@~BbIzXjBrF`A~CvHpXVbAd@hCLfAL|BZjLBvI^|OFnDt@zXTzHF|Cd@`PZtMl@fK`AvRLlBLd@\\p@T^RPP@dATdEh@bLhBh^hF"
+    },
+    {
+      "summary": {
+        "hasTolls": true,
+        "diffs": {
+          "cheapest": 219,
+          "fastest": 8
+        },
+        "url": "https://www.google.com/maps/?saddr=22.568799,72.9796186&daddr=22.4001467,73.1387115+to:22.2278953,73.1921196+to:22.0528865,73.1288731+to:21.7257535,73.0068111+to:21.6437101,73.0071759+to:21.6336465,72.992574+to:21.2500906,72.7843058+to:21.1698507,72.6666857&via=1,2,3,4,5,6,7",
+        "distance": {
+          "text": "130.4 mi",
+          "metric": "209.8 km",
+          "value": 209753
+        },
+        "duration": {
+          "text": "5 h 29 min",
+          "value": 19788
+        },
+        "name": "NH-48",
+        "note": []
+      },
+      "costs": {
+        "fuel": 1393,
+        "cash": 210
+      },
+      "tolls": [
+        {
+          "id": 9104660,
+          "lat": 22.45625,
+          "lng": 73.07045,
+          "name": "Vasad",
+          "road": "GJ SH 188",
+          "state": "Gujarat",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [],
+          "tagSecondary": [],
+          "oneWay": 120,
+          "return": 180,
+          "monthly": 3960
+        },
+        {
+          "id": 9103021,
+          "lat": 22.01525,
+          "lng": 73.11525,
+          "name": "Bharthan/Karjan",
+          "road": "NH48",
+          "state": "Gujarat",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [],
+          "tagSecondary": [],
+          "oneWay": 90,
+          "return": 135,
+          "monthly": 2970
+        }
+      ],
+      "directions": [
+        {
+          "position": {
+            "latitude": 22.568799,
+            "longitude": 72.9796186
+          },
+          "maneuver": "forward",
+          "html_instructions": "Head <span class=\"heading\">southeast</span> on <span class=\"street\">NH-8</span> <span class=\"number\">(NH-48/NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">8.4 mi</span>.</span>",
+          "distance": 13557,
+          "duration": 1064,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.4710751,
+            "longitude": 73.0581594
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mahi Bridge</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Vadodara</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">6.0 mi</span>.</span>",
+          "distance": 9631,
+          "duration": 821,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.4206173,
+            "longitude": 73.1197858
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Sankheda Bridge</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.9 mi</span>.</span>",
+          "distance": 3020,
+          "duration": 227,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.4001467,
+            "longitude": 73.1387115
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Service Road</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.2 mi</span>.</span>",
+          "distance": 6768,
+          "duration": 594,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3662329,
+            "longitude": 73.1883752
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Dumad Chowkadi</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.6 mi</span>.</span>",
+          "distance": 4161,
+          "duration": 360,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3529291,
+            "longitude": 73.2260013
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.2 mi</span>.</span>",
+          "distance": 1936,
+          "duration": 159,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3449576,
+            "longitude": 73.2420623
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.4 mi</span>.</span>",
+          "distance": 2287,
+          "duration": 186,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3276091,
+            "longitude": 73.2537997
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.9 mi</span>.</span>",
+          "distance": 2981,
+          "duration": 245,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.3011947,
+            "longitude": 73.2539499
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.7 mi</span>.</span>",
+          "distance": 2800,
+          "duration": 228,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.2789431,
+            "longitude": 73.2431674
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">4.9 mi</span>.</span>",
+          "distance": 7872,
+          "duration": 630,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.2278953,
+            "longitude": 73.1921196
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Mumbai Ahmedabad Road</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Mumbai</span>/<span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">6.5 mi</span>.</span>",
+          "distance": 10404,
+          "duration": 849,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.1405733,
+            "longitude": 73.1834614
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">8.3 mi</span>.</span>",
+          "distance": 13299,
+          "duration": 1056,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 22.0528865,
+            "longitude": 73.1288731
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">9.2 mi</span>.</span>",
+          "distance": 14753,
+          "duration": 1206,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.9277346,
+            "longitude": 73.082943
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Surat</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">8.1 mi</span>.</span>",
+          "distance": 13091,
+          "duration": 1083,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.8161225,
+            "longitude": 73.0433428
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-8</span> <span class=\"number\">(NH-48)</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">6.0 mi</span>.</span>",
+          "distance": 9601,
+          "duration": 762,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.7350125,
+            "longitude": 73.0258548
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Service Road</span> toward <span class=\"sign\"><span lang=\"en\">Bharuch</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 548,
+          "duration": 67,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 21.7312574,
+            "longitude": 73.0292773
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">125 ft</span>.</span>",
+          "distance": 38,
+          "duration": 6,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7310643,
+            "longitude": 73.0289769
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Bharuch Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.8 mi</span>.</span>",
+          "distance": 1226,
+          "duration": 125,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7282212,
+            "longitude": 73.0175292
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Bharuch Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.7 mi</span>.</span>",
+          "distance": 1143,
+          "duration": 121,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7257535,
+            "longitude": 73.0068111
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from A B C Circle roundabout onto <span class=\"number\">SH-6/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.5 mi</span>.</span>",
+          "distance": 2375,
+          "duration": 232,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7054009,
+            "longitude": 73.0002558
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from Golden Circle roundabout onto <span class=\"number\">SH-6/SH-64/SH-76</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 364,
+          "duration": 70,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.7023754,
+            "longitude": 73.0004168
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">NH-228</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.3 mi</span>.</span>",
+          "distance": 6947,
+          "duration": 634,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6437101,
+            "longitude": 73.0071759
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Bor Bhata Road</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.2 mi</span>.</span>",
+          "distance": 1919,
+          "duration": 354,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.6336465,
+            "longitude": 72.992574
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-228</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">23.4 mi</span>.</span>",
+          "distance": 37697,
+          "duration": 2800,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.4330387,
+            "longitude": 72.8319955
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from roundabout onto <span class=\"next-street\">NH-228</span> <span class=\"number\">(NH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">6.3 mi</span>.</span>",
+          "distance": 10193,
+          "duration": 929,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.3639665,
+            "longitude": 72.7727509
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"number\">SH-6</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.2 mi</span>.</span>",
+          "distance": 3474,
+          "duration": 279,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.3371551,
+            "longitude": 72.7559602
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span>. <span class=\"distance-description\">Go for <span class=\"length\">62 ft</span>.</span>",
+          "distance": 19,
+          "duration": 9,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.3371444,
+            "longitude": 72.7561426
+          },
+          "maneuver": "lightRight",
+          "html_instructions": "Turn <span class=\"direction\">slightly right</span> toward <span class=\"sign\">SH-6</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.5 mi</span>.</span>",
+          "distance": 860,
+          "duration": 148,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.3308358,
+            "longitude": 72.7531493
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"number\">SH-6</span>. <span class=\"distance-description\">Go for <span class=\"length\">6.2 mi</span>.</span>",
+          "distance": 10032,
+          "duration": 937,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2466252,
+            "longitude": 72.7858615
+          },
+          "maneuver": "uTurnRight",
+          "html_instructions": "Make a U-Turn at <span class=\"cross_street\">Shashwat Road</span> onto <span class=\"next-street\">Surat Olpad Road</span> <span class=\"number\">(SH-6)</span>. <span class=\"distance-description\">Go for <span class=\"length\">79 ft</span>.</span>",
+          "distance": 24,
+          "duration": 27,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2466681,
+            "longitude": 72.7857006
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> onto <span class=\"next-street\">Surat Olpad Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 407,
+          "duration": 60,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.2500906,
+            "longitude": 72.7843058
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hazira Sayan Road</span> <span class=\"number\">(SH-168)</span>. <span class=\"distance-description\">Go for <span class=\"length\">5.9 mi</span>.</span>",
+          "distance": 9454,
+          "duration": 846,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1908782,
+            "longitude": 72.7224433
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">4th exit</span> from Ongc Chaurasta roundabout onto <span class=\"next-street\">Hajira Main Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.1 mi</span>.</span>",
+          "distance": 173,
+          "duration": 36,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1907065,
+            "longitude": 72.7212095
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hajira Main Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">85 ft</span>.</span>",
+          "distance": 26,
+          "duration": 12,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1906528,
+            "longitude": 72.7209735
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">112 ft</span>.</span>",
+          "distance": 34,
+          "duration": 15,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1903632,
+            "longitude": 72.7208769
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">115 ft</span>.</span>",
+          "distance": 35,
+          "duration": 7,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1903846,
+            "longitude": 72.7205551
+          },
+          "maneuver": "lightLeft",
+          "html_instructions": "Turn <span class=\"direction\">slightly left</span> onto <span class=\"next-street\">NH-6</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.5 mi</span>.</span>",
+          "distance": 5616,
+          "duration": 620,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1784863,
+            "longitude": 72.6688099
+          },
+          "maneuver": "left",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from roundabout onto <span class=\"next-street\">Hazaira Road</span> <span class=\"number\">(NH-53)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 988,
+          "duration": 170,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 21.1698507,
+            "longitude": 72.6666857
+          },
+          "maneuver": "forward",
+          "html_instructions": "Arrive at <span class=\"street\">Hazaira Road</span> <span class=\"number\">(NH-53)</span>.",
+          "distance": 0,
+          "duration": 0,
+          "note": []
+        }
+      ],
+      "polyline": "_~vhCsyl|Lx@k@zOyJfEoCfXsPnGqD`DmBzHkFlPwJnJsGtCaCpCeCdHqF`CoBlIyHpLmJdFwDvA_AxCeB`BkArNuKro@af@nJmH`F}DfIkG`KsIrDaDzRkObLkJpH_GhHcG~KsIpDwCtA_AbOgMrEuDbBiBjH}G`OsOlFcFlFmFnCeClDgCvDyCdYaTpBqA|HuEzCcBdAq@|KqGfD{BbXcSpGuE`c@qZlj@aa@lFwDdMsJxNsK~MuKzC}BzMkKxKcJ~EwDlB{@xBc@r@GnAE`CDtB`@vA`@zJ`DdGbBnAVpBPrBJpA?dAAjBSlBY`Co@`K{DtC_Ap@]f@_@dBeBpIuK~GeIfB}BdAmAzE_Fp@y@x@iAfBqCb@iATw@TcBJ{AJ{L?oCRkRHqLn@uJl@gHTmBnAiHz@gERaBZ{DR{Df@wETsAdAmFbBuFj@eCj@yC~@kGxAyGLy@\\_Dx@cJ`BmN|@aHf@yB\\}@lBeD~B}Cv@w@`FmCjFaDhBeApAq@rFeDzDkBjKmGjC{AdCmA~AeAjIiEzEmC^YhAq@tB}AfFmEjAkAvC}BdAkAvJsMj@{@fC_DtH{G~A}A|DqDz@eAzEuGdD}EvDkFbBsBbAgA`@[nCkB`HkDBOJQr@WpGyCtQkIfDwApAm@jH}C`A]dFaCP?JDPKtFgCtDgBtB}@|BiAd@[z@q@X[tIsLbCuCfA}AbNiObB_BnDmDdC{B|EgErMsLjAiAv@kAd@y@j@qA^uAR{AFeA@cAAmAE_BWyEEmFBwALuCd@yGLaAdAkErAiEb@eAtE_JbBcEvAeDdFcTjAeFvE{R|@mC~@wBvAyCv@{Bn@wB^eB~@}EzDgTbAwFT_ARm@^kAvAqDd@}@rD}Fr@sAb@_Az@mCtCaO|B_MbAuFbE}S`BsJ~CgOpGoUxAuEb@_BnAaEf@iBp@}Cx@yClCiLpD_OtDqPx@gD`@mBj@sBzDyOdDmNj@wBlEkRxC}MnA}E`@eAXs@`@y@nByCrA{AbA_Ax@q@|@q@r@a@j@[tDwAl`@kOdD{A`Ak@~HwF`HgFhJwGjIkGfRsM`CiBtBuA~EyC|@c@bBo@r@UdDo@hAO~AIbA?nDFdUf@nLPpAJvBB`KXxBDxAHvCFvBJhGXvJZjBDlHR|Kd@pA?xBF|J`@xTl@|CJb@DzEFfAFbGb@dCV|B^tEhAbGvBrDnBhCdBrNnKfChBbAz@d@VfBxApGzEtEvDjRjN|@n@zDzCtG~EnCjBvHbGzM~JhGhEhF|D~KzI|JxHlClBj@f@~FxEjNlLrJ|HnBbBlJ~HtOhMj@j@vEhDtJpGbBbAvA`A|JnG~AhAnH|Fd@ZjEvD|FxE|IdItCfCbNlMnR`QjAlAtGbGvAzB^v@d@nA|GtSlJh[fC|Hp@zBd@dBb@tBlBzHj@nB|@pBv@pAp@~@x@~@`BzAn@\\NJ`Ad@pAd@~@T|AV`BNj@BdA?xDKzE}@`LaDlJiE`Bo@~Bq@hAW~@OxNuAtHu@rq@_G`CUz@KdCMlA?|AB|@H~RnBvBVdDj@pA^|@\\r@\\nG~DzMvKxDrCv@d@`Ab@dA`@jBf@`BZ|BVbV`ApEV`Hf@jg@zIhRnDdEr@dAJxBHfBGxXwAfCKlEWrBUj@KhNgDhHkBbG_BlDeAhFsAnDu@jAOpAIvA@zAHxPlCj@J~Ab@`EpBhG|EdAh@xChAf@Jt@H~@BzAA`AEjBQlDg@~ASvF{@v@OlBe@lEsB|DaBn@MjAYnDeAzPkDfEaAh@QbLeCxI{BpAUjBW~H{@hNuAvEa@nJgAhCSbFa@|Hc@h]wB|CUjF]bKy@vKq@hDOxB@jAH`AP~D`AnFvArAThCb@dAJvCb@bCZtFh@hDl@^LhCjA~@h@lBlBfArAbAvBp@fBZlARrAN~Ar@vRx@jFbKz_@|AfGfAzD~CdMhE|OXv@bBzCbBhCnBrBxCfC`NhKxCjCtIpGlCtCx@hAhA`CvCnL`CnKv@zCjAdFjD~Mp@vBTj@Vd@|@tAxAfBtAjAvBpArCxAxIjE~L`GjCdB\\Zn@t@d@n@xBnEtLzWx@dAtJxK|FfGvEfFdJdKjHrHrAx@zBx@vF`B~QzEPBjNvDzSjFr_@|JtCn@hElAxFrA`NpDxBh@xOlEXDxItBrLhDhH`B~L~Cf@JdJfClM|CxDdAd\\xIzLtCbCz@rDdAna@zK~FvA~XpHfSpFvDfAfNtDrCd@tBB~CQtDW|CGpBLbEz@tDdA`AZv@ZdAf@hCzAdAz@lEtE|@x@pA~@hBz@hDdA|EnAbHbB|JhCf^`JrBn@xEfA~JnCbZlInm@fQh_@tJhFzArHhB|DbAd]bJlFpAzc@jLdSdFhG|A|UrGfFpAra@`LfXbHnJfCbE`AdRbFjPhEpFpAvY`IzKtCvBh@dXpHpBn@`PlEfDx@fA\\~PvErXxHpEhA~`@tK`AT|B`@teAjOzDp@~Dj@jG`AfZhErDj@zDf@fQ`CrFx@tB^rGx@pJzA|APtEx@pAX~`@pMr@VfF`B~JjDfMbErf@~PrJbDb@Jf@RvP~Fbr@xVxDnAnUvHbd@tNlM~DxhBtm@tUrH|eAvWrKhCxGbBvUxGvO`F|RtFnJpCrI|BvCb@t@FhCDhBKz@Ip@IdAUdL_DdEqAhJgCdOoEbYsHnJiCvKgCdBe@xE{AjAi@b@UP[ZYz@g@lA}@pF{EbIuH\\j@HNV~@B^`BnJxF|^~DbXfB|MbAxGnA~H|CfUf@fDTfBTnADD@FzH`C\\LzDhAnDjAxDjAxPlF`NbENFxDhAbBl@xJvCfCXrF`@lIt@zGd@zEb@vEVJKLBFPAHEFrAFvBLl@?fIqAjCi@fAQ~Ae@nRyIbHmCpNyGzQeIbA[vFeC|Ai@HKjEoBzBy@jCu@~By@tYoMd@UrAy@lAmAnCkCtAeAh@]lBcAxBq@bASdAO|BQ~ACzOErB@hADrGf@fD^rXjEvf@tHd{@lMf@D`En@jLjBjRdD^dAv@hCLv@Tj@zErFz@zA`@h@Zf@hApBrAdC`D`Fp@t@pBbCd@d@r@|@fD~Cf@j@rG~Lj@p@tD~BpAdAv@|Ap@xAj@tBJx@AnAF`AJ\\_@b@qDfGU`@_@dAMx@I|@GnDMfC_@~Ds@lD?dAPdCHxBl@|I?RZzEZrGC^J`B`@~FRnBd@rIfAhOt@`Lh@dHzCdd@n@fITbEThCVvAH\\^dA~ApHv@fEBf@DpBEvGB`@L~@l@|CfKlh@pHl`@rFxXrFxYdBtIpCpNjAjGbAbFh@xCr@hDbBpIPr@bArF|ElV~EfWpCdNn@jC`@dAz@rBtFxLt@lBxBdItBpI|BlIbIh[|ArGh@xAvFxTtLpd@Vh@dCdKpDtN\\pAVx@tAfFLh@rGzVb@xAxGdWxDhOvAjFFXfClJ|F`Uj@nBt@fDrDtM`BpGhAbEpApFhJv]vDxOrBhH|AdGpClKjBzG|@vDzCpLpCbK~@|Dp@`C~@xD~CtLvCpKfAfEnC`K\\|AjB~Gl@`CX`AXlAbG|TdCrJ~AzFtC~KZrA\\pBJhCXrFT`@LBR?`@E~A]jFmAxXiGb@OpFmA`Dy@rYqG`PsDnE_AbDw@bGoAzAWhQ{BdS_CvJgApDe@|CY`@?ZBnHzAdCn@nCz@l@Fv@@dHDjLIxACbCQtMPvPKni@Q~IIbPEfDGzC?hBE`LChHG~CMdCO|BGjIa@dGgAlAYrDg@tDSpJ[l@Cj@GnAy@jAeAj@a@vAkAb@_@NOhCiB`Ak@`EsBr@O`AYtBWxCOhDIl@?lW\\jB?fFNdGLpAF~BEpBOlLiArHk@j^{CdM}@nIg@tNgA~@KvRo@rAC~ADzJ`AjJf@x@JhAHrFl@bEj@d@Jd@NbFrBjAl@jA`@h@R~@J`Id@nDPzOj@pOn@bEDxQ~@fNj@xEPxDRhLd@bAHr@Jn@Rj@\\nFdEjAr@h@Rj@Nn@FzBFvEKx@Gx@MzHoAzJwAlDObEMhDOlCEjBM|EQvBGlDOZEd@QVOj@}@LYPo@DS@g@IcBQoBSmDKwAEqAM}BEYUuEQ_CAmCFmABUPq@rAyCjBeDhAwAr@uA@QFUb@IP@P^l@p@vAd@l@ZPLhDjBbCxAzUtMbAl@^Xl@\\fPfJhAr@bCzAtCzAtDxBf@Tn@\\rR`LjJhFvF`DrA~@dAf@nAv@jDjBvGzD`Af@hBjAtA`A`AlAxBbD~AnD|LfZf@vA|ArDdCjGhBdE`DhIlBlEfYds@dA~BvA~DjAhCdCpG\\n@^`@l@`@rFfCjE~BfChAjMxGbOvITJjAp@jBdA|G|DvAt@vA`@lDt@dD`A`ElB`D~AbHdDjIfEt@XnE~B|EvBvBlAfBt@|BnApAj@zGfDbEjBPJ`D|AzBjAhClAtCzA`PzHjCtAlAf@`OnH~PpIzEbDvOhLnZ|TjEfD~EhDhHtFr@`@xKjDvLxDjF|AbAVtBp@pNlFZ?z@h@Bc@HKTEhAKdE{@`@CbCGd@Hh@^VH\\RvBbCZ`@LTFT@^XZZN^r@LPPL~@`@t@JXH^Nx@b@NLX`@`A`AVb@\\GrAIfDEhJDhBFhCLd@?|BHjAElAIpAOfMqB|B[x@GpQ}AfBQjBMtCWfDi@tO{C|JcDl^aMlQ}Fz[mLhGuBxOuFb`@qNbDoAlDmA~@a@pBs@hEaBhFmBxAg@rGcC|IcDz`@aOxlAqc@hAe@bDaA|j@cTfDgArj@aOTUPEHXQDWPUDmCt@oNfEt@`DbDrLRTJXzCjJnFhQbDjKt@vBtFrQfDnKZdAn@~CRv@HRZXlDfCxO`JpLrG~BjAlFtCfMtGfEpBjGzBzClAnFzBpn@v^vFlD|@l@vLhHzGxDzEdDhXrWtHdJxBdCVVtFxG|HhJl@v@xCpEZh@zEnHdDbF~EtIrArB|@hAjAlAdA~@`SpSzEzEjBpBxR`SpCnC~@dALLNHPBFCT?ZHJFHNFNBRAd@ILAN_@hAKd@Jn@V@`@N@j@ERJ~B^vBLTJf@h@jD|AjH\\nB@\\GPlA`FxBlKjAzD`A|Bl@jAp@dB~GrOt@rBt@~BbIzXjBrF`A~CvHpXVbAd@hCLfAL|BZjLBvI^|OFnDt@zXTzHF|Cd@`PZtMl@fK`AvRLlBLd@\\p@T^RPP@dATdEh@bLhBh^hF"
+    }
+  ],
+  "meta": {
+    "userId": "Google_103478927531747644505",
+    "customerId": "cus_EtDwANkrqaY3IU",
+    "tx": 5,
+    "type": "general",
+    "client": "api",
+    "source": "HERE"
+  }
+}

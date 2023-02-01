@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/food"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:layout_marginStart="7dp"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="11dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="7dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurent name"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/cuisins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:maxLines="1"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:src="@drawable/dotted"
+            android:visibility="visible"
+            android:layerType="software" />
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:rating="3.5"
+            android:stepSize="0.5"
+            android:foregroundTint="@color/red_300"
+            style="@style/Ratingbar_small"
+            android:transformPivotX="0dp"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:src="@drawable/dotted"
+            android:layerType="software"
+            android:visibility="gone"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp" />
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Duration"
+            android:visibility="gone"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+</LinearLayout>

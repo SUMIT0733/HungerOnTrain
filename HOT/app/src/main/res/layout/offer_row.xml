@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offer_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="NEWYEAR"
+            android:textStyle="bold"
+            android:background="@drawable/offer_back"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/offer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="HUNGER DEALS"
+            android:textColor="@color/black" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/offer_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Terms And Conditions"
+            android:drawableStart="@drawable/error"
+            android:drawablePadding="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center_vertical"
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"/>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

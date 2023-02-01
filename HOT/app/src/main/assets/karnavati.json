@@ -1,0 +1,236 @@
+{
+  "debit": 1,
+  "response_code": 200,
+  "train": {
+    "days": [
+      {
+        "code": "MON",
+        "runs": "Y"
+      },
+      {
+        "code": "TUE",
+        "runs": "Y"
+      },
+      {
+        "code": "WED",
+        "runs": "Y"
+      },
+      {
+        "code": "THU",
+        "runs": "Y"
+      },
+      {
+        "code": "FRI",
+        "runs": "Y"
+      },
+      {
+        "code": "SAT",
+        "runs": "Y"
+      },
+      {
+        "code": "SUN",
+        "runs": "Y"
+      }
+    ],
+    "number": "12933",
+    "name": "KARNAVATI EXP",
+    "classes": [
+      {
+        "available": "Y",
+        "code": "2S",
+        "name": "SECOND SEATING"
+      },
+      {
+        "available": "N",
+        "code": "1A",
+        "name": "FIRST AC"
+      },
+      {
+        "available": "N",
+        "code": "2A",
+        "name": "SECOND AC"
+      },
+      {
+        "available": "N",
+        "code": "3E",
+        "name": "3rd AC ECONOMY"
+      },
+      {
+        "available": "N",
+        "code": "FC",
+        "name": "FIRST CLASS"
+      },
+      {
+        "available": "N",
+        "code": "SL",
+        "name": "SLEEPER CLASS"
+      },
+      {
+        "available": "Y",
+        "code": "CC",
+        "name": "AC CHAIR CAR"
+      },
+      {
+        "available": "N",
+        "code": "3A",
+        "name": "THIRD AC"
+      }
+    ]
+  },
+  "route": [
+    {
+      "scharr": "SOURCE",
+      "schdep": "13:40",
+      "no": 1,
+      "day": 1,
+      "halt": -1,
+      "station": {
+        "lng": 72.8193781,
+        "lat": 18.9696228,
+        "code": "MMCT",
+        "name": "MUMBAI CENTRAL"
+      },
+      "distance": 0.0
+    },
+    {
+      "scharr": "14:12",
+      "schdep": "14:17",
+      "no": 2,
+      "day": 1,
+      "halt": 5,
+      "station": {
+        "lng": 72.8441358,
+        "lat": 19.2371877,
+        "code": "BVI",
+        "name": "BORIVALI"
+      },
+      "distance": 30.0
+    },
+    {
+      "scharr": "16:10",
+      "schdep": "16:13",
+      "no": 3,
+      "day": 1,
+      "halt": 3,
+      "station": {
+        "lng": 72.9106202,
+        "lat": 20.3893155,
+        "code": "VAPI",
+        "name": "VAPI"
+      },
+      "distance": 170.0
+    },
+    {
+      "scharr": "16:37",
+      "schdep": "16:39",
+      "no": 4,
+      "day": 1,
+      "halt": 2,
+      "station": {
+        "lng": 72.9342451,
+        "lat": 20.5992349,
+        "code": "BL",
+        "name": "VALSAD"
+      },
+      "distance": 194.0
+    },
+    {
+      "scharr": "17:35",
+      "schdep": "17:40",
+      "no": 5,
+      "day": 1,
+      "halt": 5,
+      "station": {
+        "lng": 72.83106070000001,
+        "lat": 21.1702401,
+        "code": "ST",
+        "name": "SURAT"
+      },
+      "distance": 262.0
+    },
+    {
+      "scharr": "18:25",
+      "schdep": "18:26",
+      "no": 6,
+      "day": 1,
+      "halt": 1,
+      "station": {
+        "lng": 72.9958748,
+        "lat": 21.7051358,
+        "code": "BH",
+        "name": "BHARUCH JN"
+      },
+      "distance": 321.0
+    },
+    {
+      "scharr": "19:20",
+      "schdep": "19:25",
+      "no": 7,
+      "day": 1,
+      "halt": 5,
+      "station": {
+        "lng": 73.1812187,
+        "lat": 22.3071588,
+        "code": "BRC",
+        "name": "VADODARA JN"
+      },
+      "distance": 391.0
+    },
+    {
+      "scharr": "19:59",
+      "schdep": "20:01",
+      "no": 8,
+      "day": 1,
+      "halt": 2,
+      "station": {
+        "lng": 72.9625629,
+        "lat": 22.5584995,
+        "code": "ANND",
+        "name": "ANAND JN"
+      },
+      "distance": 427.0
+    },
+    {
+      "scharr": "20:17",
+      "schdep": "20:18",
+      "no": 9,
+      "day": 1,
+      "halt": 1,
+      "station": {
+        "lng": 72.86336349999999,
+        "lat": 22.6915853,
+        "code": "ND",
+        "name": "NADIAD JN"
+      },
+      "distance": 445.0
+    },
+    {
+      "scharr": "21:02",
+      "schdep": "21:03",
+      "no": 10,
+      "day": 1,
+      "halt": 1,
+      "station": {
+        "lng": 72.5995843,
+        "lat": 22.9961698,
+        "code": "MAN",
+        "name": "MANINAGAR"
+      },
+      "distance": 488.0
+    },
+    {
+      "scharr": "21:25",
+      "schdep": "DEST",
+      "no": 11,
+      "day": 1,
+      "halt": -1,
+      "station": {
+        "lng": 72.5713621,
+        "lat": 23.022505,
+        "code": "ADI",
+        "name": "AHMEDABAD JN"
+      },
+      "distance": 491.0
+    }
+  ]
+}
